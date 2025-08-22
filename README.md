@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # omanbiz-pro-complete
-=======
+
 # OmanBiz Pro - Complete Business Management System
 
 A comprehensive business management solution designed specifically for Omani businesses, featuring a modern React frontend and scalable Node.js microservices backend.
