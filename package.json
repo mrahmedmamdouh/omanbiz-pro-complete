@@ -1,0 +1,18 @@
+{
+  "name": "omanbiz-pro-complete",
+  "version": "1.0.0",
+  "description": "Complete Business Management System for Omani Businesses",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": ["business", "management", "oman", "invoice", "customer", "product"],
+  "author": "OmanBiz Pro Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
